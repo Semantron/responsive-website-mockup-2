@@ -364,4 +364,38 @@ section {
     header.sticky .menuToggle {
         filter: invert(1);
     }
+    section {
+        padding: 20px;
+    }
+    .row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row .col50 {
+        position: relative;
+        width: 90%;
+    }
+    .row .col50 .imgBx {
+        position: relative;
+        width: 100%;
+        min-height: 300px;
+    }
+    .row .col50 .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        height: 100%;
+    }
+    .titleText {
+        color: #111;
+        font-size: 2em;
+        font-weight: 300;
+        text-align: center;
+    }
 }
